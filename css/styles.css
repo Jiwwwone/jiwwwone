@@ -1,0 +1,41 @@
+
+body {
+	font-family: 'Muli', sans-serif;
+	background-color: #FEFEFE !important;
+}
+.container {
+	max-width: 960px;
+}
+.nav-title
+{
+	margin-bottom: 0;
+}
+.navbar {
+	background-color: #FEFEFE !important;
+}
+.navbtn {
+	border: none;
+}
+.navbtn:focus {
+	outline: 0;
+}
+.navbar .navbar-brand {
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+	font-size: 1.5rem;
+}
+.navbar .nav-link {
+	font-weight: 400;
+	font-size: 1rem;
+	margin-left: 20px;
+	color: #202020 !important;
+}
+.contents{
+	width: 100%;
+
+}
+.contents .thumbnail {
+	background-color: red;
+	height: 390px;
+}
+
