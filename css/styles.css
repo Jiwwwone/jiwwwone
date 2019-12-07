@@ -2,13 +2,18 @@
 body {
 	font-family: 'Muli', sans-serif;
 	background-color: #FEFEFE !important;
+	color: #181717;
 }
+
 .container {
 	max-width: 960px;
 }
-.nav-title
-{
-	margin-bottom: 0;
+
+.navbar-title a:hover {
+	color: blue !important;
+}
+.nav-item a:hover {
+	color: blue !important;
 }
 .navbar {
 	background-color: #FEFEFE !important;
@@ -27,7 +32,7 @@ body {
 .navbar .nav-link {
 	font-weight: 400;
 	font-size: 1rem;
-	margin-left: 20px;
+	margin-left: 15px;
 	color: #202020 !important;
 }
 .contents{
@@ -35,7 +40,54 @@ body {
 
 }
 .contents .thumbnail {
-	background-color: red;
 	height: 390px;
+}
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.header {
+	margin-top: 80px;
+	margin-bottom: 0;
+	padding: 8px 16px 8px 16px;
+	height: 380px;
+	vertical-align: middle;
+	display: inline-block;
+	width: 100%
+}
+.header a {
+	color: blue !important;
+}
+.header h2 {
+	font-size: 38px;
+	font-family: 'Playfair Display', serif;
+	margin-bottom: 40px;
+}
+
+.row {
+	padding: 8px 16px 8px 16px;
+}
+.contents {
+	margin-bottom: 30px;
+}
+.page3 .thumbnail {
+	background-image: url(../images/Page3-Thumbnail.png);
+	background-position: center center;
+	background-size: cover;
+}
+.contents a .thumbnail:hover {
+	background-color: blue;
+	opacity: 0.7;
+}
+.page4 .thumbnail {
+	background-image: url(../images/Page4-Thumbnail.png);
+	background-position: center center;
+	background-size: cover;
+}
+.page5 .thumbnail {
+	background-image: url(../images/Page5-Thumbnail.png);
+	background-position: center center;
+	background-size: cover;
 }
 
